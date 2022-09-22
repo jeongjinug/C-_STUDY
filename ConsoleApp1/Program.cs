@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("세 변의 길이를 입력하세요.");
-            Console.Write("1번째 길이 : ");
+            Console.Write("1번째 길이 : "); 
             int num1 = Int32.Parse(Console.ReadLine());
             Console.Write("2번째 길이 : ");
             int num2 = Int32.Parse(Console.ReadLine());

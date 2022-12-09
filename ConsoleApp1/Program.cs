@@ -19,6 +19,7 @@ namespace ConsoleApp1
             int num3 = Int32.Parse(Console.ReadLine());
             num3 = Int32.Parse(Console.ReadLine());
             num3 = Int32.Parse(Console.ReadLine());
+            num3 = Int32.Parse(Console.ReadLine());
 
             int l = num1 + num2 + num3;
 

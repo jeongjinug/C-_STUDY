@@ -75,9 +75,9 @@ namespace ConsoleApp1
             num3 = Int32.Parse(Console.ReadLine());
             num3 = Int32.Parse(Console.ReadLine());
             num3 = Int32.Parse(Console.ReadLine());
-            num3 = Int32.Parse(Console.ReadLine());
-            num3 = Int32.Parse(Console.ReadLine());
-            num3 = Int32.Parse(Console.ReadLine());
+
+
+
 
 
 

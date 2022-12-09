@@ -21,7 +21,6 @@ namespace ConsoleApp1
             num3 = Int32.Parse(Console.ReadLine());
             num3 = Int32.Parse(Console.ReadLine());
 
-
             int l = num1 + num2 + num3;
 
             double s = Math.Sqrt(l * (l - num1) * (l - num2) * (l - num3));

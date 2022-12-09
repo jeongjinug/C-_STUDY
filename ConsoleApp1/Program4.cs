@@ -10,22 +10,29 @@ namespace ConsoleApp1
     {
         public static void Main()
         {
-            Console.WriteLine("정수들을 입력하세요.");
-            string num = Console.ReadLine();
-            string[] nums = num.Split(' ');
+            // 3차배열 선언
+            string[,,] arr = new string[,,] {
+            { {"1", "2"}, {"11","22"} },
+            { {"3", "4"}, {"33", "44"} }
+    };
 
-            int MAX = 0;
-            for(int i = 0; i < nums.Length; i++)
+            //for 루프 : 3번 루프를 만들어 돌림
+            for (int i = 0; i < arr.GetLength(0); i++)
             {
-                int number = int.Parse(nums[i]);
-                if(number > MAX)
-                    MAX = number;
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    for (int k = 0; k < arr.GetLength(2); k++)
+                    {
+                        Debug.WriteLine(arr[i, j, k]);
+                    }
+                }
             }
 
-            Console.WriteLine("가장 큰 수는 " + MAX + " 입니다.");
-            Console.WriteLine("가장 큰 수는 " + MAX + " 입니다.");
-            Console.WriteLine("가장 큰 수는 " + MAX + " 입니다.");
-            Console.WriteLine("가장 큰 수는 " + MAX + " 입니다.");
+            //foreach 루프 : 한번에 3차배열 모두 처리
+            foreach (var s in arr)
+            {
+                Debug.WriteLine(s);
+            }
         }
     }
 }

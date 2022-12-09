@@ -23,6 +23,7 @@ namespace ConsoleApp1
             }
 
             Console.WriteLine("가장 큰 수는 " + MAX + " 입니다.");
+            Console.WriteLine("가장 큰 수는 " + MAX + " 입니다.");
         }
     }
 }

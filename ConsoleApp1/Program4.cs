@@ -23,7 +23,7 @@ namespace ConsoleApp1
                 {
                     for (int k = 0; k < arr.GetLength(2); k++)
                     {
-                        Debug.WriteLine(arr[i, j, k]);
+                        Console.WriteLine(arr[i, j, k]);
                     }
                 }
             }
@@ -31,7 +31,7 @@ namespace ConsoleApp1
             //foreach 루프 : 한번에 3차배열 모두 처리
             foreach (var s in arr)
             {
-                Debug.WriteLine(s);
+                Console.WriteLine(s);
             }
         }
     }

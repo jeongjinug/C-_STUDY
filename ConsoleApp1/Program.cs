@@ -120,8 +120,6 @@ namespace ConsoleApp1
 
 
 
-
-
             int l = num1 + num2 + num3;
             double s = Math.Sqrt(l * (l - num1) * (l - num2) * (l - num3));
             Console.WriteLine("삼각형의 넓이는 {0:F} 입니다.", s);

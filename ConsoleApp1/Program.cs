@@ -17,6 +17,7 @@ namespace ConsoleApp1
             int num2 = Int32.Parse(Console.ReadLine());
             Console.Write("3번째 길이 : ");
             int num3 = Int32.Parse(Console.ReadLine());
+            int num3 = Int32.Parse(Console.ReadLine());
 
             int l = num1 + num2 + num3;
 
